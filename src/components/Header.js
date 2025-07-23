@@ -1,9 +1,8 @@
-// src/components/Header.js
 import React from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { FaGripLines } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({ onMenuClick }) => {
   return (
     <Navbar
       bg="white"
@@ -12,7 +11,6 @@ const Header = () => {
       style={{ minHeight: "90px", position: "relative" }}
     >
       <Container fluid>
-        {/* Logo & subtitle */}
         <Navbar.Brand href="#" className="d-flex flex-column">
           <div className="d-flex align-items-center">
             <img
@@ -37,11 +35,7 @@ const Header = () => {
           </p>
         </Navbar.Brand>
 
-        {/* Mobile toggle icon */}
-        <Navbar.Toggle aria-controls="qr-navbar" className="border-0" />
-
-        {/* Collapsible content */}
-        <Navbar.Collapse id="qr-navbar" className="justify-content-end">
+        <Navbar.Collapse className="justify-content-end">
           <Nav className="align-items-center gap-3">
             <Nav.Link
               href="#"
@@ -54,7 +48,6 @@ const Header = () => {
             >
               Login
             </Nav.Link>
-
             <Button
               variant="primary"
               className="px-4"
@@ -71,25 +64,26 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
 
-        {/* Absolute right drag icon */}
-        <div
-          className="d-none d-lg-flex"
-          style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            backgroundColor: "rgb(244, 245, 245)",
-            height: "90px",
-            width: "90px",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <FaGripLines
-            size={22}
-            style={{ cursor: "pointer", color: "rgb(73, 196, 234)" }}
-          />
-        </div>
+        {/* Right drag icon */}
+       <div
+  className="d-flex"
+  style={{
+    position: "absolute",
+    top: 0,
+    right: 0,
+    backgroundColor: "rgb(244, 245, 245)",
+    height: "90px",
+    width: "90px",
+    alignItems: "center",
+    justifyContent: "center",
+    cursor: "pointer",
+    zIndex: 1, // to ensure it's on top of Navbar content
+  }}
+  onClick={onMenuClick}
+>
+  <FaGripLines size={22} style={{ color: "rgb(73, 196, 234)" }} />
+</div>
+
       </Container>
     </Navbar>
   );

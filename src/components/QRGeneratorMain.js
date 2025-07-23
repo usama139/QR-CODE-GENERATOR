@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import QRInputSection from "./QRInputSection";
 import QRPreviewPanel from "./QRPreviewPanel";
+import Sidebar from "./Sidebar";
 import { Container, Row, Col } from "react-bootstrap";
 
 const QRGeneratorMain = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
     <>
-      <Header />
+      <Header onMenuClick={() => setSidebarOpen(true)} />
+      {sidebarOpen && <Sidebar onClose={() => setSidebarOpen(false)} />}
+      
       <Container fluid className="bg-light py-5">
         <Container className="p-4 rounded bg-white shadow">
           <Row>
@@ -17,7 +22,7 @@ const QRGeneratorMain = () => {
             <Col md={4}>
               <QRPreviewPanel />
             </Col>
-          </Row> 
+          </Row>
         </Container>
       </Container>
     </>
