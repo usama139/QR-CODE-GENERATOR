@@ -1,0 +1,34 @@
+/* src/styles/PromoBannerSection.css */
+.promo-banner1 {
+  background-color: #ffe4f0;
+  border-radius: 16px;
+  margin: 40px auto;
+  width: 85%;
+}
+
+.promo-banner1 h2 {
+  color: #1a3556;
+  font-size: 28px;
+}
+
+.promo-banner1 .text-pink {
+  color: #ff4fa3;
+}
+
+.promo-banner1 p {
+  font-size: 17px;
+  color: #4a5770;
+}
+
+.promo-btn {
+  background-color: white;
+  color: #1a3556;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.promo-btn:hover {
+  background-color: #f2f2f2;
+  color: #1a3556;
+}

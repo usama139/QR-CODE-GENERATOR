@@ -1,0 +1,27 @@
+
+.qr-info-section .accordion-button {
+  background-color: transparent;
+  font-weight: 600;
+  color: #1a3556;
+  padding: 2rem 1.25rem;
+  font-size: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.qr-info-section .accordion-button:not(.collapsed) {
+  color: #1a3556;
+  background-color: #f8f9fa;
+  box-shadow: none;
+}
+
+.qr-info-section .accordion-body {
+  color: #1a3556;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.qr-info-section .accordion-item:last-child .accordion-body {
+  border-bottom: none;
+}

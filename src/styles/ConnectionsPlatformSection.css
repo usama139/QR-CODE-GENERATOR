@@ -1,0 +1,70 @@
+.connections-section {
+  background-color: #ffffff;
+}
+
+.btn-learn-more {
+  background-color: #00aaff;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+.feature-card:hover {
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.2);
+}
+
+.feature-card .icon-box {
+  color: #00aaff;
+}
+
+/* Learn More button */
+.btn-learn-more {
+  background-color: #00aaff;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* Feature boxes */
+.feature-card {
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.feature-card h5 {
+  font-size: 1.2rem;
+}
+
+.check-icon {
+  color: #007aff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: inline-block;
+  width: 1.2rem;
+}
+
+.btn-signup {
+  background-color: #00b3ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+  border: none;
+  padding: 10px 0;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #009edf;
+}
+
+.bitly-logo {
+  max-height: 60px;
+  display: inline-block;
+}

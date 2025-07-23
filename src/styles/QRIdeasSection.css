@@ -1,0 +1,31 @@
+/* src/styles/QRIdeasSection.css */
+
+.small-image {
+  height: 190px;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.idea-card {
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.idea-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: #00a9f1;
+}
+.view-more-card {
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.view-more-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: #00a9f1;
+}

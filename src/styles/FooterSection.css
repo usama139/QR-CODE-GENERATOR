@@ -1,0 +1,99 @@
+.footer-section {
+  background-color: #fbfbfd;
+  color: #2e3c50;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: #003087;
+}
+
+.footer-links,
+.footer-blog {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-blog li {
+  margin-bottom: 0.5rem;
+  color: #0074e4;
+  cursor: pointer;
+}
+
+.footer-links li:hover,
+.footer-blog li:hover {
+  text-decoration: underline;
+}
+
+.footer-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #44576d;
+}
+
+.footer-made {
+  font-size: 13px;
+  color: #6a6f73;
+  margin-bottom: 1rem;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 12px;
+  color: #6a6f73;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #0074e4;
+}
+
+.compliance-badges img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.footer-bottom-text {
+  font-size: 13px;
+  color: #5f6a7d;
+  line-height: 1.6;
+}
+
+.footer-bottom-text a {
+  color: #0074e4;
+  text-decoration: none;
+}
+
+.footer-bottom-text a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.footer-bottom a {
+  margin-left: 15px;
+  color: #0074e4;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.language-select {
+  margin-left: 15px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

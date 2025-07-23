@@ -1,0 +1,74 @@
+.qr-types-section {
+  padding: 4rem 1rem;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.qr-types-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1c1e21;
+}
+
+.qr-types-subtext {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #4a4a4a;
+  font-size: 1rem;
+}
+
+.qr-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.qr-type-card {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: box-shadow 0.2s ease;
+}
+
+.qr-type-card:hover {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-type-card:hover h5,
+.qr-type-card:hover p,
+.qr-type-card:hover .qr-icon {
+  color: white; /* Ensure all text/icons turn white */
+}
+
+
+.qr-icon {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.pro-card {
+  background-color: #0067e1;
+  color: white;
+  position: relative;
+}
+
+.pro-label {
+  background-color: white;
+  color: #0067e1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  
+}
+.pro-p{
+    padding-top: 30px;
+}
